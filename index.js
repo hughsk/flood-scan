@@ -15,13 +15,12 @@ function scan(grid, opts) {
     , metrics = []
     , metric
     , idx = 0
-    , n = 0
     , x, y
 
   top:
   for (x = 0; x < width; x += 1)
-  for (y = 0; y < height; y += 1, n += 1) {
-    if (empty(data[n])) {
+  for (y = 0; y < height; y += 1) {
+    if (empty(grid.get(x, y))) {
       metric = fill(grid, x, y, indexer(idx++))
       metric.start = [x, y]
       metrics.push(metric)
