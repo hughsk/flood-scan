@@ -1,6 +1,6 @@
 {
   "name": "flood-scan",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Marks out disconnected \"rooms\" in a 2D ndarray for procedural map generation.",
   "main": "index.js",
   "scripts": {
