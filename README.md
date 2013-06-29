@@ -37,4 +37,4 @@ following properties, most of which are borrowed from
 See [eyeball.js](http://github.com/hughsk/flood-scan/blob/master/eyeball.js)
 for a visual test, and a full usage example.
 
-[![flood-scan example](https://raw.github.com/hughsk/flood-fill/master/screenshot.png)](http://github.com/hughsk/flood-scan/blob/master/eyeball.js)
+[![flood-scan example](https://raw.github.com/hughsk/flood-scan/master/screenshot.png)](http://github.com/hughsk/flood-scan/blob/master/eyeball.js)
