@@ -1,0 +1,34 @@
+{
+  "name": "flood-scan",
+  "version": "0.0.0",
+  "description": "Marks out disconnected \"rooms\" in a 2D ndarray for procedural map generation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node eyeball.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/flood-scan.git"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "flood-fill": "0.1.x"
+  },
+  "devDependencies": {
+    "zeros": "0.0.0",
+    "colors": "~0.6.0-1",
+    "cave-automata-2d": "~0.2.1"
+  },
+  "readmeFilename": "README.md",
+  "keywords": [
+    "flood",
+    "fill",
+    "scan",
+    "rooms",
+    "procedural",
+    "ndarray",
+    "generation",
+    "dungeon"
+  ]
+}
